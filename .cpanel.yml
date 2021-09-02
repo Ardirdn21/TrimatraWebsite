@@ -1,7 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/u3124377/public_html/clone/
+    - export DEPLOYPATH=/home/u3124377/public_html/template01/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp -R Design $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
