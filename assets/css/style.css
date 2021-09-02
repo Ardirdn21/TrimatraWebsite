@@ -1,0 +1,70 @@
+body{
+
+    background-image: linear-gradient(160deg, #A414B4 -10%,#2A6FB4 5% 10%, #045397 20% 25%, #5F7DDA 50% 55%, #3D1264 80% 85%);
+    width: 100%;
+    height: 8640px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-repeat: no-repeat;
+
+}
+
+/* navbar */
+
+.Navbar{
+    color: #ecf0f1;
+    background: rgba( 255, 255, 255, 0.2 );
+    border: solid 1px rgba(255,255,255,.3);
+    backgroud-clip: padding-box;
+    backdrop-filter: blur(10px );
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -7px;
+
+}
+.Navbar ul{
+    list-style: none;
+}
+.Navbar ul a{
+
+    padding-right: 2px;
+
+}
+.Navbar li a{
+
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    padding-left: 20px;
+
+}
+.Navbar li a:hover{
+
+    color: white;
+    opacity: 80%;
+    text-decoration: none;
+    margin-right: 40px;
+    padding-left: 20px;
+
+}
+.Navbar ul li{
+    float: right;
+}
+
+
+.content {
+    padding: 0px;
+  }
+  
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
